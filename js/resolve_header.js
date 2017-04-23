@@ -17,8 +17,8 @@ jQuery(function ($) {
         });
     }
     //Variables on page load
-    var $myCarousel = $("#immortal_carousel");
-        $firstAnimatingElems = $myCarousel.find(".item:first").find("[data-animation ^= ")"]");
+    var $myCarousel = $('#immortal_carousel'),
+        $firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
     //Initialize carousel
     $myCarousel.carousel();
     //Animate captions in first slide on page load

@@ -12,6 +12,9 @@
 #immortal_header {
     border-color: #ffffff;
     background-color: #ffffff;
+} 
+.fa fa-angle {
+    align-content: center;
 }
 ul {
     list-style: none;
@@ -121,6 +124,10 @@ footer {
     height: 10px;
     width:100%;
 }
+.controllers{
+    margin-top: 50px;
+}
+
 #sun{
     height: 40px;
     width:40px;
@@ -171,9 +178,12 @@ footer {
     padding-top: 7px;
     border-radius: 50%;
 }
-
+.sr-only {
+    margin-top: 5px;
+}
 .fa fa-angle-double-right{ 
     font-size: 80px;
+    align-content: center;
 }
 .footer-social li {
     align-content: center;

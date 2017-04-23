@@ -108,12 +108,12 @@
 
                                 <!------Closes Dropdown Menu ------->
                                 <!--======= Right Dropdown =========-->
-                                <li class="dropdown separate_navbar_dropdown separate_navbar_dropdown_right">
+                                <li class="dropdown separate_navbar_dropdown separate_navbar_dropdown_left">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Financial Services
 									<i class="fa fa-angle-double-right"></i>
 									</a>
 
-                                    <ul class="dropdown-menu separate_navbar_dropdown_menu separate_navbar_dropdown_menu_right">
+                                    <ul class="dropdown-menu separate_navbar_dropdown_menu separate_navbar_dropdown_menu_left">
                                         <li><a href="#"><i class="fa fa-university fa-fw" aria-hidden="true"></i>&nbsp; Bank Accounts</a></li>
                                         <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i>&nbsp; Debt Collection</a></li>
                                         <li><a href="#"><i class="fa fa-credit-card-alt fa-fw" aria-hidden="true"></i>&nbsp; Credit Card</a></li>
@@ -122,8 +122,6 @@
 
                                 </li>
                                 <!---------Closes 2nd Dropdown Menu ----------->
-
-                                <li><a href="#">First Level Dropdown</a></li>
 
                                 <!--======= Left Dropdown =========-->
                                 <li class="dropdown separate_navbar_dropdown separate_navbar_dropdown">
@@ -140,8 +138,6 @@
                                     </ul>
 
                                 </li>
-
-                                <li><a href="#">First Level Dropdown</a></li>
 
                             </ul>
                         </li>
@@ -302,7 +298,7 @@
 
                 </div>
                 <!--======= Navigation Buttons =========-->
-
+                <div class="controllers">
                 <!--======= Left Button =========-->
                 <a class="left-carousel-control separate_navbar_carousel_control_left" href="#immortal_carousel" role="button" data-slide="prev">
                     <span class="fa fa-angle-double-left separate_navbar_carousel_control_icons" aria-hidden="true"></span>
@@ -314,216 +310,12 @@
                     <span class="fa fa-angle-double-right separate_navbar_carousel_control_icons" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>
+                </div>
         </div>
+        </div>
+
         <!--*-*-*-*-*-*-*-*-*-*- END BOOTSTRAP CAROUSEL *-*-*-*-*-*-*-*-*-*-->
 
-        <!--*-*-*-*-*-*-*-*-*-*- Modal Sections *-*-*-*-*-*-*-*-*-*-->
-
-        <!--======= Login Modal =========-->
-        <div class="modal fade separate_navbar_modal_fade" id="separate_navbar_login_modal" role="dialog">
-            <div class="modal-dialog separate_navbar_modal_dialog">
-
-                <!--======= Login Modal Content =========-->
-                <div class="modal-content separate_navbar_modal_content animated fadeIn">
-
-                    <!--======= Login Modal Header =========-->
-                    <div class="modal-header separate_navbar_modal_header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3>Login</h3>
-                    </div>
-
-                    <!--======= Login Modal Body =========-->
-                    <div class="modal-body separate_navbar_modal_body">
-
-                        <div id="separate_navbar_modal_user_image">
-                            <h3 class="animated fadeInDown">Welcome back!</h3>
-                        </div>
-
-                        <form class="separate_navbar_modal_body_form">
-                            <div class="form-group">
-                                <input type="text" class="form-control animated fadeInDown" id="username-login" placeholder="Username" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control animated fadeInDown" id="psw-login" placeholder="Password" required>
-                            </div>
-                            <div class="checkbox">
-                                <label class="separate_navbar_checkbox">
-                                    <input type="checkbox" value="">Remember Me
-                                </label>
-                            </div>
-                            <button type="submit" class="btn btn-default animated fadeInDown">
-                                <span class="glyphicon glyphicon-off"></span> Login
-                            </button>
-                        </form>
-                    </div>
-
-                    <!--======= Login Modal Footer =========-->
-                    <div class="modal-footer separate_navbar_modal_footer">
-
-                        <a href="#">Forget Username / Password?</a>
-                        <br>
-                        <a href="#">New Here?</a>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!--======= End Login Modal =========-->
-
-        <!--======= Register Modal =========-->
-        <div class="modal fade separate_navbar_modal_fade" id="separate_navbar_register_modal" role="dialog">
-            <div class="modal-dialog separate_navbar_modal_dialog">
-
-                <!--======= Register Modal Content =========-->
-                <div class="modal-content separate_navbar_modal_content">
-
-                    <!--======= Register Modal Header =========-->
-                    <div class="modal-header separate_navbar_modal_header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3>Register</h3>
-                    </div>
-
-                    <!--======= Register Modal Body =========-->
-                    <div class="modal-body separate_navbar_modal_body">
-                        <form class="separate_navbar_modal_body_form">
-                            <div class="form-group">
-                                <input type="text" class="form-control animated fadeInDown" id="first-name" placeholder="First Name" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control animated fadeInDown" id="last-name" placeholder="Last Name" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control animated fadeInDown" id="user-name" placeholder="Username" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control animated fadeInDown" id="psw-reg" placeholder="Password" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control animated fadeInDown" id="email-reg" placeholder="Email" required>
-                            </div>
-                            <div class="checkbox">
-                                <label class="separate_navbar_checkbox animated fadeInDown">
-                                    <input type="checkbox" value="" required>I agree to the ReSolve <a href="#">Terms and Conditions</a>
-                                </label>
-                            </div>
-                            <br>
-                            <button type="submit" class="btn btn-default animated fadeInDown">
-                                Create Account
-                            </button>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!--======= End Register Modal =========-->
-
-        <!--======= Search Modal =========-->
-        <div class="modal fade separate_navbar_modal_fade" id="separate_navbar_search_modal" role="dialog">
-            <div class="modal-dialog separate_navbar_modal_dialog">
-
-                <!--======= Search Modal Content =========-->
-                <div class="modal-content  separate_navbar_modal_content animated fadeIn">
-
-                    <!--======= Search Modal Header =========-->
-                    <div class="modal-header separate_navbar_modal_header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3>Search</h3>
-                    </div>
-
-                    <!--======= Search Modal Body =========-->
-                    <div class="modal-body separate_navbar_modal_body separate_navbar_modal_body_search">
-                        <form class="separate_navbar_modal_body_form separate_navbar_search_bar">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="query" name="search" value="" placeholder="Start Typing..." required>
-                            </div>
-                            <button type="submit" class="btn btn-default">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </button>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!--======= End Search Modal =========-->
-
-        <!--======= Contact Us Modal =========-->
-        <div class="modal fade separate_navbar_modal_fade" id="separate_navbar_contact_us_modal" role="dialog">
-            <div class="modal-dialog separate_navbar_modal_dialog">
-
-                <!--======= Contact Us Modal Content =========-->
-                <div class="modal-content  separate_navbar_modal_content animated fadeIn">
-
-                    <!--======= Contact Us Modal Header =========-->
-                    <div class="modal-header separate_navbar_modal_header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3>Contact Us</h3>
-                    </div>
-
-                    <!--======= Contact Us Modal Body =========-->
-                    <div class="modal-body separate_navbar_modal_body">
-                        <form class="separate_navbar_modal_body_form">
-                            <div class="form-group">
-                                <input type="text" class="form-control animated fadeInDown" id="usrname" placeholder="Your Name" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control animated fadeInDown" id="email" placeholder="Your Email" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control animated fadeInDown" id="subject" placeholder="Your Subject" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control animated fadeInDown" rows="5" id="comment" placeholder="Your Message..." required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-default animated fadeInDown">
-                                <span class="glyphicon glyphicon-send"></span> Submit Now
-                            </button>
-                        </form>
-                    </div>
-
-                    <!--======= Contact Us Modal Footer =========-->
-                    <div class="modal-footer separate_navbar_modal_footer" id="separate_navbar_contact_us_modal_social_icons">
-
-                        <ul class="pull-right animated fadeInDown">
-                            <li>
-                                <a target="_blank" href="#" data-toggle="tooltip" data-placement="top" title="10M">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#" data-toggle="tooltip" data-placement="top" title="5M">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#" data-toggle="tooltip" data-placement="top" title="1M">
-                                    <i class="fa fa-google-plus"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#" data-toggle="tooltip" data-placement="top" title="Skype">
-                                    <i class="fa fa-skype"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#" data-toggle="tooltip" data-placement="top" title="25000">
-                                    <i class="fa fa-youtube"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#" data-toggle="tooltip" data-placement="top" title="Rss">
-                                    <i class="fa fa-rss"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--=======End Contact Us Modal =========-->
     </header>
 
     <div class="container-footer">
@@ -533,9 +325,9 @@
            
                                     <div class="row1">
                         <div class="col-md-3 col-sm-6 footer-col">
-                            <div class="logofooter"> Logo</div>
+                            <div class="logofooter">Resolve.com</div>
                             <p>Let us help you grow your business</p>
-                            <p><i class="fa fa-map-pin"></i> B28, Houston, Tx</p>
+                            <p><i class="fa fa-map-pin"></i> Suite B28, Houston, Tx</p>
                             <p><i class="fa fa-phone"></i> Phone (US) : +1 555-777-9311</p>
                             <p><i class="fa fa-envelope"></i> E-mail : info@amdevelopers.com</p>
 
